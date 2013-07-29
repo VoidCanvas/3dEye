@@ -1,13 +1,11 @@
 {
-  "name": "3dEye",
-  "title": "3dEye",
+  "name": "3deye",
+  "title": "3dEye.js",
   "description": "A plugin to create 3d view of an object by images, supports in all major browsers, Android and iOS.",
   "keywords": [
     "jquery",
     "3deye.js",
-    "3dEye",
-    "void canvas 3d eye",
-    "3d eye"
+    "3dEye"
   ],
   "version": "1.0.0",
   "author": {
