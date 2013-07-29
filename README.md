@@ -5,8 +5,8 @@
 
 This plugin is very easy to use.
 
-Read the tutorial to use this plugin.
+Read the <h3><em><a href="http://voidcanvas.com/3deye-js-a-plugin-to-create-360-degree-3d-panoramic-view-works-in-all-major-browsers-and-mobile-devices/">tutorial</a></em></h3> to use this plugin.
 
-<h2>DEMO</h2>
+<h3><a href="http://www.voidcanvas.com/demo/?art=http://voidcanvas.com/3deye-js-a-plugin-to-create-360-degree-3d-panoramic-view-works-in-all-major-browsers-and-mobile-devices&demoid=28823deye">Click here for DEMO</a></h3>
 
-<h2>Official Page </h2>
+<h3><a href="http://voidcanvas.com/3deye/">Visit Official Page </a></h3>
