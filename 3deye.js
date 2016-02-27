@@ -36,7 +36,7 @@
                 // 	currentX = target.pageX - this.offsetLeft
             });
 
-            selector.bind("touchstart", function() {
+            selector.bind("touchstart", function(target) {
                 console.log("touchstart : isMoving="+isMoving);
              	isMoving = true;
 
