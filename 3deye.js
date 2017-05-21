@@ -36,14 +36,19 @@
                 // 	currentX = target.pageX - this.offsetLeft
             });
 
-            selector.bind("touchstart", function() {
+            selector.bind("touchstart", function(target) {
                 console.log("touchstart : isMoving="+isMoving);
-             	isMoving = true
+             	isMoving = true;
+
+                //store the start position
+                var actualTouch = target.originalEvent.touches[0] || target.originalEvent.changedTouches[0];
+                currentX = actualTouch.clientX;
+
             });
 
             $(document).bind("touchend", function() {
                 console.log("touchend : isMoving="+isMoving);
-                isMoving = false
+                isMoving = false;
             });
 
             selector.bind("touchmove", function(target) {
